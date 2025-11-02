@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+}
+
+hr {
+  border: 1px solid #000;
+  margin: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.todo-container {
+    width: 90%;
+    max-width: 1200px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#taskInput {
+    width: 75%;
+    padding: 8px;
+}
+
+#addTaskBtn {
+    padding: 8px 12px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.summary {
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.summary p {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+
+.task-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+button.delete {
+    background-color: #f44336;
+    margin-left: 10px;
+}
+
+button.delete:hover {
+    background-color: #d32f2f;
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+li .task-info {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+li .task-info span {
+    flex: 1;
+    padding-right: 10px;
+}
+
+button.complete {
+    background-color: #8bc34a;
+    margin-left: 10px;
+}
